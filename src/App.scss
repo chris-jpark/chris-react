@@ -1,0 +1,31 @@
+$primary-color: #ff6347; 
+
+@import 'animate.css'; 
+
+@font-face {
+  font-family: 'ibm_plex_sansbold';
+  src: url('./assets/fonts/ibmplexsans-bold-webfont.woff2') format('woff2'),
+       url('./assets/fonts/ibmplexsans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Didot LT'; 
+  src: url('./assets/fonts/DidotLTStd-Roman.otf') format("opentype"); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Coolvetica'; 
+  src: url('./assets/fonts/coolvetica.otf') format("opentype"); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+input, 
+textarea {
+  font-family: 'ibm_plex_sansbold', sans-serif; 
+}
